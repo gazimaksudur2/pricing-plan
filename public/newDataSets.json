@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Design & Production",
+    "packages": [
+      "Web Design",
+      "User Experience Design",
+      "Logo Design",
+      "Graphic Design",
+      "User Interface Design",
+      "Digital Design"
+    ],
+    "price": ["1000", "1500", "2000", "2500", "3000", "2100"]
+  },
+  {
+    "title": "Development",
+    "packages": [
+      "Mobile App Development",
+      "Software Development",
+      "Web Development",
+      "AR/VR",
+      "Artificial Intelligence",
+      "Blockchain"
+    ],
+    "price": ["700", "800", "900", "500", "1000", "2300"]
+  },
+  {
+    "title": "Marketing",
+    "packages": [
+      "Digital Marketing",
+      "SEO",
+      "Social Media Marketing",
+      "Mobile Marketing",
+      "Content Marketing",
+      "Search Marketing"
+    ],
+    "price": ["1050", "1530", "2040", "2550", "3500", "3578"]
+  },
+  {
+    "title": "Advertising",
+    "packages": [
+      "Advertising",
+      "Branding",
+      "Creative",
+      "Video Production",
+      "Public Relations",
+      "Media Planning & Buying"
+    ],
+    "price": ["1258", "1014", "2578", "2863", "1279", "1365"]
+  },
+  {
+    "title": "Business Services",
+    "packages": [
+      "Call Centers",
+      "BPO",
+      "Accounting",
+      "Commercial Real Estate",
+      "HR Services",
+      "Consulting"
+    ],
+    "price": ["1670", "5200", "4500", "3500", "2400", "3100"]
+  },
+  {
+    "title": "IT Services",
+    "packages": [
+      "IT Services",
+      "Cybersecurity",
+      "Data Analytics",
+      "Managed IT Services",
+      "Cloud Consulting",
+      "Staff Augmentation"
+    ],
+    "price": ["3214", "4123", "6541", "1456", "7896", "6987"]
+  }
+]
