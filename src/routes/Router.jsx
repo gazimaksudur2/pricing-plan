@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Home from '../pages/Home';
 import ErrorPage from '../pages/ErrorPage';
 import PlanPage from '../pages/PlanPage';
+import OrderForm from '../pages/OrderForm';
 
 const Router = createBrowserRouter([
     {
@@ -13,6 +14,10 @@ const Router = createBrowserRouter([
     {
         path: '/plan',
         element: <PlanPage/>
+    },
+    {
+        path: '/order',
+        element: <OrderForm/>
     }
 ]);
 

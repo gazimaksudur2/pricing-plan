@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PlanPage = () => {
   return (
@@ -6,9 +7,7 @@ const PlanPage = () => {
       <section class="bg-white">
         <div class="container px-6 py-8 mx-auto">
           <div class="sm:flex sm:items-center sm:justify-between">
-            <div>
-              
-            </div>
+            <div></div>
 
             <div class="overflow-hidden p-0.5 mt-6 border rounded-lg">
               <div class="sm:-mx-0.5 flex">
@@ -24,15 +23,11 @@ const PlanPage = () => {
 
           <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="px-6 py-4 transition-colors duration-300 transform rounded-lg hover:bg-gray-200">
-              <p class="text-lg font-medium text-gray-800">
-                Intro
-              </p>
+              <p class="text-lg font-medium text-gray-800">Intro</p>
 
               <h4 class="mt-2 text-3xl font-semibold text-gray-800">
                 $19{" "}
-                <span class="text-base font-normal text-gray-600">
-                  / Month
-                </span>
+                <span class="text-base font-normal text-gray-600">/ Month</span>
               </h4>
 
               <p class="mt-4 text-gray-500">
@@ -54,9 +49,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    All limited links
-                  </span>
+                  <span class="mx-4 text-gray-700">All limited links</span>
                 </div>
 
                 <div class="flex items-center">
@@ -73,9 +66,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Own analytics platform
-                  </span>
+                  <span class="mx-4 text-gray-700">Own analytics platform</span>
                 </div>
 
                 <div class="flex items-center">
@@ -92,9 +83,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Chat support
-                  </span>
+                  <span class="mx-4 text-gray-700">Chat support</span>
                 </div>
 
                 <div class="flex items-center">
@@ -111,9 +100,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Optimize hashtags
-                  </span>
+                  <span class="mx-4 text-gray-700">Optimize hashtags</span>
                 </div>
 
                 <div class="flex items-center">
@@ -130,27 +117,26 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Unlimited users
-                  </span>
+                  <span class="mx-4 text-gray-700">Unlimited users</span>
                 </div>
               </div>
 
-              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                Choose plan
+              <button className="btn w-full my-4 btn-lg px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                <Link
+                  to={"/order"}
+                  class=""
+                >
+                  Choose plan
+                </Link>
               </button>
             </div>
 
             <div class="px-6 py-4 transition-colors duration-300 transform rounded-lg hover:bg-gray-200">
-              <p class="text-lg font-medium text-gray-800">
-                Base
-              </p>
+              <p class="text-lg font-medium text-gray-800">Base</p>
 
               <h4 class="mt-2 text-3xl font-semibold text-gray-800">
                 $39{" "}
-                <span class="text-base font-normal text-gray-600">
-                  / Month
-                </span>
+                <span class="text-base font-normal text-gray-600">/ Month</span>
               </h4>
 
               <p class="mt-4 text-gray-500">
@@ -172,9 +158,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    All limited links
-                  </span>
+                  <span class="mx-4 text-gray-700">All limited links</span>
                 </div>
 
                 <div class="flex items-center">
@@ -191,9 +175,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Own analytics platform
-                  </span>
+                  <span class="mx-4 text-gray-700">Own analytics platform</span>
                 </div>
 
                 <div class="flex items-center">
@@ -210,9 +192,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Chat support
-                  </span>
+                  <span class="mx-4 text-gray-700">Chat support</span>
                 </div>
 
                 <div class="flex items-center">
@@ -229,9 +209,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Optimize hashtags
-                  </span>
+                  <span class="mx-4 text-gray-700">Optimize hashtags</span>
                 </div>
 
                 <div class="flex items-center">
@@ -248,14 +226,17 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Unlimited users
-                  </span>
+                  <span class="mx-4 text-gray-700">Unlimited users</span>
                 </div>
               </div>
 
-              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                Choose plan
+              <button className="btn w-full my-4 btn-lg px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                <Link
+                  to={"/order"}
+                  class=""
+                >
+                  Choose plan
+                </Link>
               </button>
             </div>
 
@@ -358,21 +339,22 @@ const PlanPage = () => {
                 </div>
               </div>
 
-              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                Choose plan
+              <button className="btn w-full my-4 btn-lg px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                <Link
+                  to={"/order"}
+                  class=""
+                >
+                  Choose plan
+                </Link>
               </button>
             </div>
 
             <div class="px-6 py-4 transition-colors duration-300 transform rounded-lg hover:bg-gray-200">
-              <p class="text-lg font-medium text-gray-800">
-                Exterprise
-              </p>
+              <p class="text-lg font-medium text-gray-800">Exterprise</p>
 
               <h4 class="mt-2 text-3xl font-semibold text-gray-800">
                 $199{" "}
-                <span class="text-base font-normal text-gray-600">
-                  / Month
-                </span>
+                <span class="text-base font-normal text-gray-600">/ Month</span>
               </h4>
 
               <p class="mt-4 text-gray-500">
@@ -394,9 +376,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    All limited links
-                  </span>
+                  <span class="mx-4 text-gray-700">All limited links</span>
                 </div>
 
                 <div class="flex items-center">
@@ -413,9 +393,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Own analytics platform
-                  </span>
+                  <span class="mx-4 text-gray-700">Own analytics platform</span>
                 </div>
 
                 <div class="flex items-center">
@@ -432,9 +410,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Chat support
-                  </span>
+                  <span class="mx-4 text-gray-700">Chat support</span>
                 </div>
 
                 <div class="flex items-center">
@@ -451,9 +427,7 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Optimize hashtags
-                  </span>
+                  <span class="mx-4 text-gray-700">Optimize hashtags</span>
                 </div>
 
                 <div class="flex items-center">
@@ -470,14 +444,17 @@ const PlanPage = () => {
                     />
                   </svg>
 
-                  <span class="mx-4 text-gray-700">
-                    Unlimited users
-                  </span>
+                  <span class="mx-4 text-gray-700">Unlimited users</span>
                 </div>
               </div>
 
-              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                Choose plan
+              <button className="btn w-full my-4 btn-lg px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                <Link
+                  to={"/order"}
+                  class=""
+                >
+                  Choose plan
+                </Link>
               </button>
             </div>
           </div>
